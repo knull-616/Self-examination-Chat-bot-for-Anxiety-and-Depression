@@ -14,6 +14,7 @@ sns.set_style("whitegrid")
 dates_fmt = mdates.DateFormatter('%d %b')
 
 
+
 def get_quizes_plot(quizes):
     fig, ax = plt.subplots()
     ax.xaxis.set_major_formatter(dates_fmt)
